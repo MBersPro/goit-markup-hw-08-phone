@@ -1,0 +1,942 @@
+
+/* =========================== СБРОС ==================================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+/* ============================ СБРОС DONE ========================================= */
+
+/* ============================= MAIN SETTINGS ====================================== */
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px) !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden !important;
+}
+
+.list {
+  list-style: none;
+}
+
+.link a {
+  text-decoration: none;
+}
+
+.img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.advantages {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  width: 270px;
+}
+
+.h3-advantages {
+  font-weight: 700;
+  color: #212121;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.p-advantages {
+  font-weight: 400;
+  color: #757575;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.img {
+  display: block;
+}
+
+.h2-container-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* ============================== MAIN SETTINGS DONE ===================================== */
+
+/* ============================== HEADER ============================================== */
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: black;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02px;
+  color: #212121;
+  padding-bottom: 31px;
+  padding-top: 31px;
+  transition: color 250ms linear;
+}
+.nav-li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-blue {
+  color: #2196f3;
+  position: relative;
+}
+
+.nav-blue::after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+  height: 4px;
+  background-color: #2196f3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-contact:first-child {
+  margin-right: 50px;
+}
+
+.header-contacts-icon {
+  width: 16px;
+  height: 12px;
+  vertical-align: middle;
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.info-header a {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0, 02em;
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+}
+
+.info-header a:hover,
+.info-header a:focus {
+  color: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-contact:hover .header-contacts-icon,
+.header-contact:focus .header-contacts-icon {
+  fill: #2196f3;
+}
+
+.header-contact {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-bottom: 31px;
+  padding-top: 31px;
+}
+
+/* , /background-color 250ms  */
+
+/* ============================== HEADER DONE ========================================== */
+
+/* =============================== MAIN =================================================== */
+
+.h1-btn-background {
+  background-color: #c4c4c4;
+  height: 600px;
+  padding-top: 200px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main-page-img/effective-solutions-bg.jpg);
+  background-size: cover;
+}
+
+.effective-solutions {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  letter-spacing: 0.06em;
+  color: white;
+  line-height: 60px;
+
+  width: 700px;
+  text-align: center;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-studio {
+  display: block;
+  letter-spacing: 0.06em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #2196f3;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  line-height: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  cursor: pointer;
+
+  padding: 10px 32px;
+}
+
+.our-advantages-icon {
+  display: flex;
+  width: 70px;
+  height: 70px;
+}
+.our-advantages-item {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.our-advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.what-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ====================================== WHAT ARE WE DOING ========================================== */
+
+.h2-pics {
+  padding-bottom: 94px;
+}
+
+.lara {
+  position: relative;
+  color: black;
+}
+
+.khil {
+  position: absolute;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  padding: 27px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.image_what_block {
+  display: block;
+}
+
+.our-team-background {
+  background-color: #f5f4fa;
+}
+
+.our-team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-team > li {
+  background-color: white;
+  min-height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-name-h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.specialization {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
+.our-team-social-list-icon-color {
+  fill: #afb1b8;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: white;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-customers-items {
+  display: flex;
+}
+
+.regular-customer-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.regular-customer-item {
+  flex-basis: calc((100% - 150px) / 6);
+}
+
+.regular-customer-link {
+  display: inline-block;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 94px;
+  padding: 15px 31px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-customer-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.regular-customer-link:hover,
+.regular-customer-link:focus {
+  border-color: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.regular-customer-link:hover .regular-customer-icon,
+.regular-customer-link:focus .regular-customer-icon {
+  fill: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ======================================== MAIN ========================================= */
+
+/* ===================================== FOOTER ========================================= */
+
+.footer {
+  background-color: #2f303a;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  display: block;
+}
+.studio-footer {
+  color: white;
+}
+address p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+address a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.tel-footer {
+  display: block;
+  margin-top: 9px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-social-links-items {
+  display: flex;
+}
+
+.footer-adress-container {
+  margin-right: 70px;
+}
+
+.footer-join-container {
+  padding-top: 10px;
+}
+
+.join-us-social-list-icon-color {
+  fill: #ffffff;
+}
+
+.join-us-social-list-link-bg {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-join-h3 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-p-form-button-container {
+  padding-top: 10px;
+  margin-left: 93px;
+}
+
+.p-subscribe-for-mailing {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-form-button-flex-container {
+  display: flex;
+}
+
+.footer-mail-form {
+  margin-right: 12px;
+}
+
+.footer-subscribe-btn {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-right: 62px;
+  display: block;
+  letter-spacing: 0.06em;
+  border: none;
+}
+
+.footer-mail-input {
+  height: 50px;
+  min-width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  background-color: #2f303a;
+  min-width: 358px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+}
+
+.footer-subscribe-btn-icon-container {
+  position: relative;
+}
+
+.footer-subscribe-btn-icon {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 28px;
+}
+
+/* ============================== MODAL FORM ================================================= */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 528px;
+
+  background-color: #ffffff;
+}
+.modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-close-btn:hover {
+  fill: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.svg-modal-close-btn {
+  width: 11px;
+  height: 11px;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+.modal-form-head {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0;
+  color: #212121;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.modal-form-field {
+  margin-bottom: 10px;
+  margin-top: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.modal-form-input-wrapper {
+  display: block;
+  position: relative;
+}
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(117, 117, 117, 50%);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding-left: 42px;
+  margin-top: 4px;
+}
+
+.modal-form-input:hover,
+.modal-form-input:focus {
+  outline: none;
+  border-color: rgb(33, 150, 243);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-icon {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 15px;
+}
+
+.modal-form-input:hover + .modal-form-icon,
+.modal-form-input:focus + .modal-form-icon {
+  fill: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-message {
+  width: 100%;
+  height: 120px;
+  padding: 12px 16px;
+  resize: none;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 4px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.modal-form-message:hover,
+.modal-form-message:focus {
+  border-color: #2196f3;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+}
+
+.modal-form-btn {
+  position: relative;
+  left: 25%;
+  width: 200px;
+  height: 50px;
+  display: block;
+  background: #188ce8;
+  border-radius: 4px;
+  padding-left: 55px;
+  margin-bottom: 40px;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.modal-btn-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.modal-form-checkbox-desc {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  position: relative;
+}
+
+.modal-true {
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+
+.modal-form-checkbox-desc::before {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 7px;
+  top: 12px;
+}
+
+.modal-form-check:checked + .modal-form-checkbox-desc::before {
+  background-color: #2196f3;
+  background-image: url("../icon-nike.svg");
+  background-size: contain;
+  border-color: #2196f3;
+}
+.modal-form-checkbox-link {
+  color: #2196f3;
+}
+
+/* ================================================================================ */
+
+/* ================================================================================ */
+
+/* ==================================== Portfoliopage.html =========================================*/
+
+/* ===================================== MAIN SETTINGS ============================================ */
+
+/* ===================================== MAIN SETTINGS ============================================ */
+
+.buttons-portfolio {
+  margin-bottom: 50px;
+}
+
+.portfolio-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-portfolio-buttons:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-portfolio {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  line-height: 26px;
+
+  padding: 6px 22px;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background: #2196f3;
+  color: white;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+
+.port-cards-marg {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.portfolio-card {
+  background: #ffffff;
+  box-sizing: border-box;
+}
+.portfolio-card:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section2 h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.port-card-p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.portf-border {
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding-left: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team-list-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: 250ms;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(33, 149, 243, 90%);
+  padding: 63px 24px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  letter-spacing: 0.03em;
+}
+
+.portfolio-card:hover .overlay {
+  transform: translateY(0%);
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* =================================================smart.html=============================================================== */
+.body_smart{
+  min-width: 800;
+}
