@@ -45,13 +45,13 @@ ol {
   display: block;
 }
 
-.container {
+/* .container {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
 .advantages {
   font-family: "Roboto", sans-serif;
@@ -937,6 +937,14 @@ address a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* =================================================smart.html=============================================================== */
-.body_smart{
-  min-width: 800;
+.container{
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 480px){
+ header{
+   width: 480px;
+ }
 }
